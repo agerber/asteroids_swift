@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  asteroids
+//  SpaceInvaders
 //
-//  Created by Sy Tung An on 30/9/24.
+//  Created by Furkan Baytemur on 5.10.2024.
 //
 
 

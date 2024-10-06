@@ -3,33 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		53A122CF2CAAF84E007842B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A122CE2CAAF84E007842B4 /* AppDelegate.swift */; };
-		53A122D32CAAF84E007842B4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53A122D22CAAF84E007842B4 /* Actions.sks */; };
-		53A122D52CAAF84E007842B4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A122D42CAAF84E007842B4 /* GameScene.swift */; };
-		53A122D72CAAF84E007842B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A122D62CAAF84E007842B4 /* ViewController.swift */; };
-		53A122D92CAAF853007842B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A122D82CAAF853007842B4 /* Assets.xcassets */; };
-		53A122DC2CAAF853007842B4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53A122DB2CAAF853007842B4 /* Base */; };
-		53A122E42CAAFBDD007842B4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53A122E32CAAFBDD007842B4 /* GameScene.sks */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		53A122CB2CAAF84E007842B4 /* asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		53A122CE2CAAF84E007842B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53A122D22CAAF84E007842B4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		53A122D42CAAF84E007842B4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		53A122D62CAAF84E007842B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53A122D82CAAF853007842B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		53A122DB2CAAF853007842B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53A122DD2CAAF853007842B4 /* asteroids.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = asteroids.entitlements; sourceTree = "<group>"; };
-		53A122E32CAAFBDD007842B4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../../../.Trash/GameScene.sks; sourceTree = "<group>"; };
+		5350A2792CB1405400DB70F8 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D5062442CB117DD0003BDF1 /* SpaceInvaders */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpaceInvaders;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		53A122C82CAAF84E007842B4 /* Frameworks */ = {
+		3D50623F2CB117DD0003BDF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,130 +29,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53A122C22CAAF84E007842B4 = {
+		3D5062392CB117DD0003BDF1 = {
 			isa = PBXGroup;
 			children = (
-				53A122CD2CAAF84E007842B4 /* asteroids */,
-				53A122CC2CAAF84E007842B4 /* Products */,
+				3D5062442CB117DD0003BDF1 /* SpaceInvaders */,
+				5350A2792CB1405400DB70F8 /* SpaceInvaders.app */,
 			);
-			sourceTree = "<group>";
-		};
-		53A122CC2CAAF84E007842B4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				53A122CB2CAAF84E007842B4 /* asteroids.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		53A122CD2CAAF84E007842B4 /* asteroids */ = {
-			isa = PBXGroup;
-			children = (
-				53A122CE2CAAF84E007842B4 /* AppDelegate.swift */,
-				53A122D22CAAF84E007842B4 /* Actions.sks */,
-				53A122E32CAAFBDD007842B4 /* GameScene.sks */,
-				53A122D42CAAF84E007842B4 /* GameScene.swift */,
-				53A122D62CAAF84E007842B4 /* ViewController.swift */,
-				53A122D82CAAF853007842B4 /* Assets.xcassets */,
-				53A122DA2CAAF853007842B4 /* Main.storyboard */,
-				53A122DD2CAAF853007842B4 /* asteroids.entitlements */,
-			);
-			path = asteroids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53A122CA2CAAF84E007842B4 /* asteroids */ = {
+		3D5062412CB117DD0003BDF1 /* SpaceInvaders */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53A122E02CAAF853007842B4 /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildConfigurationList = 3D5062572CB117DF0003BDF1 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */;
 			buildPhases = (
-				53A122C72CAAF84E007842B4 /* Sources */,
-				53A122C82CAAF84E007842B4 /* Frameworks */,
-				53A122C92CAAF84E007842B4 /* Resources */,
+				3D50623E2CB117DD0003BDF1 /* Sources */,
+				3D50623F2CB117DD0003BDF1 /* Frameworks */,
+				3D5062402CB117DD0003BDF1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = asteroids;
-			productName = asteroids;
-			productReference = 53A122CB2CAAF84E007842B4 /* asteroids.app */;
+			fileSystemSynchronizedGroups = (
+				3D5062442CB117DD0003BDF1 /* SpaceInvaders */,
+			);
+			name = SpaceInvaders;
+			packageProductDependencies = (
+			);
+			productName = SpaceInvaders;
+			productReference = 5350A2792CB1405400DB70F8 /* SpaceInvaders.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		53A122C32CAAF84E007842B4 /* Project object */ = {
+		3D50623A2CB117DD0003BDF1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					53A122CA2CAAF84E007842B4 = {
-						CreatedOnToolsVersion = 15.3;
+					3D5062412CB117DD0003BDF1 = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 53A122C62CAAF84E007842B4 /* Build configuration list for PBXProject "asteroids" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 3D50623D2CB117DD0003BDF1 /* Build configuration list for PBXProject "SpaceInvaders" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 53A122C22CAAF84E007842B4;
-			productRefGroup = 53A122CC2CAAF84E007842B4 /* Products */;
+			mainGroup = 3D5062392CB117DD0003BDF1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D5062392CB117DD0003BDF1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53A122CA2CAAF84E007842B4 /* asteroids */,
+				3D5062412CB117DD0003BDF1 /* SpaceInvaders */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53A122C92CAAF84E007842B4 /* Resources */ = {
+		3D5062402CB117DD0003BDF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A122E42CAAFBDD007842B4 /* GameScene.sks in Resources */,
-				53A122D92CAAF853007842B4 /* Assets.xcassets in Resources */,
-				53A122D32CAAF84E007842B4 /* Actions.sks in Resources */,
-				53A122DC2CAAF853007842B4 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53A122C72CAAF84E007842B4 /* Sources */ = {
+		3D50623E2CB117DD0003BDF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A122D72CAAF84E007842B4 /* ViewController.swift in Sources */,
-				53A122D52CAAF84E007842B4 /* GameScene.swift in Sources */,
-				53A122CF2CAAF84E007842B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		53A122DA2CAAF853007842B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53A122DB2CAAF853007842B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		53A122DE2CAAF853007842B4 /* Debug */ = {
+		3D5062552CB117DF0003BDF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +170,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -225,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		53A122DF2CAAF853007842B4 /* Release */ = {
+		3D5062562CB117DF0003BDF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +227,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -280,15 +235,17 @@
 			};
 			name = Release;
 		};
-		53A122E12CAAF853007842B4 /* Debug */ = {
+		3D5062582CB117DF0003BDF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = asteroids/asteroids.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SpaceInvaders/SpaceInvaders.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -298,22 +255,25 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.uchicago.gerber.asteroids;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uchicago.SpaceInvaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		53A122E22CAAF853007842B4 /* Release */ = {
+		3D5062592CB117DF0003BDF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = asteroids/asteroids.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SpaceInvaders/SpaceInvaders.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -323,8 +283,9 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.uchicago.gerber.asteroids;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uchicago.SpaceInvaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -333,25 +294,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53A122C62CAAF84E007842B4 /* Build configuration list for PBXProject "asteroids" */ = {
+		3D50623D2CB117DD0003BDF1 /* Build configuration list for PBXProject "SpaceInvaders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53A122DE2CAAF853007842B4 /* Debug */,
-				53A122DF2CAAF853007842B4 /* Release */,
+				3D5062552CB117DF0003BDF1 /* Debug */,
+				3D5062562CB117DF0003BDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53A122E02CAAF853007842B4 /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+		3D5062572CB117DF0003BDF1 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53A122E12CAAF853007842B4 /* Debug */,
-				53A122E22CAAF853007842B4 /* Release */,
+				3D5062582CB117DF0003BDF1 /* Debug */,
+				3D5062592CB117DF0003BDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 53A122C32CAAF84E007842B4 /* Project object */;
+	rootObject = 3D50623A2CB117DD0003BDF1 /* Project object */;
 }
